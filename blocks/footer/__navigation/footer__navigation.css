@@ -1,0 +1,16 @@
+.footer__navigation {
+    display: flex;
+}
+
+@media screen and (max-width: 710px) {
+    .footer__navigation {
+        flex-direction: column;
+        margin-bottom: calc((100vw - 320px) / (710 - 320) * (10 - 48) + 48px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__navigation {
+        margin-bottom: 48px;
+    }
+}

@@ -1,0 +1,18 @@
+.lead__title {
+    font-family: 'Inter-Black', 'Arial', sans-serif;
+    font-size: 6rem;
+    line-height: 100px;
+    max-width: 720px;
+    min-width: 288px;
+    min-height: 88px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        font-size: calc((100vw - 320px) / (768 - 320) * (96 - 40) + 40px);
+        line-height: calc((100vw - 320px) / (768 - 320) * (100 - 44) + 44px);
+        width: calc((100vw - 320px) / (768 - 320) * (720 - 288) + 288px);
+    }
+}
