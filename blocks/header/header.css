@@ -25,7 +25,6 @@
 @media screen and (max-width: 768px) {
     .header {
         width: calc((100vw - 320px) / (768 - 320) * (720 - 288) + 288px);
-        height: calc((100vw - 320px) / (768 - 320) * (52 - 42) + 42px);
         padding-left: calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px);
         padding-right: calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px);
     }

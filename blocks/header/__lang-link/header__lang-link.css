@@ -5,6 +5,11 @@
     text-decoration: none;
     color: #FFF;
     margin-right: 18px;
+    transition: .3s ease;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
 }
 
 .header__lang-link:last-child {
